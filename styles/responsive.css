@@ -1,0 +1,205 @@
+/* style for 1200px screen width */
+@media (max-width: 1200px) {
+	.h-png-right img {
+		bottom: 4rem;
+		right: 4rem;
+	}
+}
+
+/* style for 992px screen width */
+@media (max-width: 992px) {
+	.home {
+		background-position: 50% center;
+	}
+
+	.h-png-left img {
+		left: 7rem;
+	}
+
+	.h-png-right img {
+		bottom: 4rem;
+		right: 3rem;
+	}
+
+	.fourth .container {
+		max-width: 100%;
+	}
+
+	.input input[type='email'] {
+		width: 63%;
+	}
+
+	.about {
+		width: 95%;
+	}
+
+	.social-icons a img {
+		padding: 1.3rem;
+	}
+
+	#last-contact {
+		margin-top: 20px;
+	}
+}
+
+/* style for 768px screen width */
+@media (max-width: 768px) {
+	.home-content p {
+		max-width: 40rem;
+	}
+
+	.h-png-right img {
+		display: none;
+	}
+
+	.third {
+		background-position: center top -10%;
+		background-size: 150%;
+	}
+
+	.fourth .container {
+		max-width: 70%;
+	}
+}
+
+/* style for 576px screen width */
+@media (max-width: 576px) {
+	.home {
+		background-position: 50% center;
+	}
+
+	.header-content {
+		padding: 4rem;
+		margin-top: 5rem;
+	}
+
+	.home-content {
+		padding: 2rem;
+		margin-top: 7rem;
+	}
+
+	.home-content h1 {
+		font-size: 3rem;
+	}
+
+	.home-content p {
+		font-size: 1.4rem;
+	}
+
+	.h-png-left img {
+		bottom: 15rem;
+		left: 3rem;
+		width: 15rem;
+	}
+
+	.fourth .container {
+		max-width: 100%;
+	}
+
+	.blog-cards {
+		margin: 3rem auto;
+		max-width: 100%;
+	}
+
+	.third {
+		background-position: center top -10%;
+		background-size: 200%;
+	}
+
+	.about {
+		width: 100%;
+	}
+
+	.social-icons a img {
+		padding: 0.9rem;
+	}
+}
+
+/* style for 480px screen width */
+@media (max-width: 480px) {
+	.home {
+		background-position: 60% center;
+	}
+
+	.home .container {
+		max-width: 100%;
+	}
+
+	.blog-card {
+		max-width: 25rem;
+	}
+
+	.blog-card h4 {
+		font-size: 1.5rem;
+	}
+
+	.blog-card p {
+		font-size: 1.2rem;
+	}
+
+	.social-icons a img {
+		width: 3.5rem;
+	}
+}
+
+/* style for 320px screen width */
+@media (max-width: 320px) {
+	.home {
+		height: 60vh;
+		background-position: 35% center;
+	}
+
+	.home-content {
+		padding: 2rem;
+		margin-top: 7rem;
+	}
+
+	.home-content h1 {
+		font-size: 1.5em;
+	}
+
+	.h-png-left,
+	.h-png-right {
+		display: none;
+	}
+
+	.third {
+		background-position: center top 15%;
+		background-size: 200%;
+	}
+
+	.count div h3 {
+		font-size: 3rem;
+	}
+
+	.count div p {
+		font-size: 1.3rem;
+	}
+
+	.about {
+		width: 100%;
+	}
+
+	.list-unstyled li a {
+		font-size: 1rem;
+	}
+}
+
+/* style for 290px screen width */
+@media (max-width: 290px) {
+	.home {
+		height: 70vh;
+	}
+
+	.input input[type='email'] {
+		width: 65%;
+	}
+
+	.social-icons a img {
+		padding: 0.8rem;
+	}
+
+	.social-icons a img {
+		width: 3.2rem;
+	}
+}

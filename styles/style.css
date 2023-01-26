@@ -1,0 +1,502 @@
+/* -------------------------------global styles------------------------ */
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+}
+
+h2 {
+	/* for section heading */
+	font-size: 2.5rem;
+}
+
+h2::after {
+	/* for section heading */
+	content: ' ';
+	display: block;
+	width: 8rem;
+	height: 3px;
+	background: #c70c98;
+	margin: auto;
+	margin-top: 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.department,
+.third,
+.fourth {
+	/* top and bottom margin for all section */
+	margin: 2rem auto;
+}
+
+section {
+	overflow: hidden;
+}
+
+.section-title {
+	/* all section title */
+	text-align: center;
+	margin: auto;
+	padding: 0 1rem;
+	max-width: 650px;
+}
+
+.section-title h2 {
+	/* all section title */
+	margin-bottom: 1.5rem;
+}
+
+.section-content {
+	/* all section content*/
+	max-width: 800px;
+	margin: 3rem auto;
+	padding: 0 1rem;
+}
+
+/* -------------------------------
+          navbar section
+------------------------------- */
+
+header {
+	background-color: #fef9f5;
+	border-bottom: 1px solid rgb(235, 218, 218);
+}
+
+.navbar-brand img {
+	width: 3rem;
+	padding: 0;
+	margin: 0 3rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin: 0 1.3rem;
+	float: right;
+	padding: 1rem;
+	font-size: 1.4rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:active {
+	color: #f88800;
+}
+
+.navbar-expand-lg .navbar-nav .apply-btn {
+	padding: 0.5rem 2rem;
+	background-color: #f88800;
+	color: #fff;
+	margin-top: 0.3rem;
+	border: 1px solid rgba(190, 121, 121, 0.925);
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .apply-btn:hover {
+	box-shadow: 1px 3px 5px rgb(70, 66, 66);
+	color: #fff;
+}
+
+.navbar-toggler {
+	/* making disable the default border of ham-burger icon provided by bootstrap */
+	border: none;
+}
+
+.navbar-toggler:focus {
+	/* making disable the default box-shadow of ham-burger icon provided by bootstrap */
+	box-shadow: none;
+}
+
+.navbar-toggler-icon {
+	width: 3rem;
+}
+
+/* -------------------------------
+         home section
+------------------------------- */
+
+.home {
+	background: url(../img/bg/home-01.jpg);
+	background-size: cover;
+	background-position: 30% center;
+	height: 90vh;
+	padding: 1rem;
+	position: relative;
+}
+
+.home .container {
+	max-width: 80%;
+}
+
+.home-content {
+	padding: 2rem 0;
+	margin-top: 13rem;
+}
+
+.home-content h1 {
+	color: #fa9c30;
+	font-weight: 700;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
+}
+
+.home-content p {
+	margin-bottom: 3rem;
+}
+
+.home-content a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	color: #fff;
+	background-color: #fa9c30;
+	border-radius: 2.5rem;
+	-webkit-border-radius: 2.5rem;
+	-moz-border-radius: 2.5rem;
+	-ms-border-radius: 2.5rem;
+	-o-border-radius: 2.5rem;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.home-content a:hover {
+	background-color: #f58506;
+}
+
+.h-footer img {
+	width: 100%;
+}
+
+.h-png-left img {
+	position: absolute;
+	bottom: 4rem;
+	left: 13rem;
+	width: 15rem;
+}
+
+.h-png-right img {
+	position: absolute;
+	bottom: 4rem;
+	right: 14rem;
+	width: 10rem;
+}
+
+/* -------------------------------
+          department section
+------------------------------- */
+.single-card {
+	margin: auto;
+	margin-bottom: 2rem;
+	width: 230px;
+	padding: 2rem 0;
+}
+
+.single-card img {
+	width: 200px;
+}
+
+.single-card h3 {
+	color: #fff;
+	padding-bottom: 2rem;
+	z-index: 7;
+}
+
+#s-card-1 {
+	background-color: #f9703a;
+}
+
+#s-card-2 {
+	background-color: #80be41;
+}
+
+#s-card-3 {
+	background-color: #ffb157;
+}
+
+/* -------------------------------third section------------------------ */
+.third {
+	background: url(../img/third-sec/backpng.png);
+	background-position: top -80%;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.video-area {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	background-image: url(../img/third-sec/play-back.png);
+	background-position: center center;
+	position: relative;
+	border: 15px solid #fde8d0;
+	margin: 1.5rem auto;
+}
+
+.video-area .play-btn {
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	cursor: pointer;
+}
+
+.count {
+	margin: 3rem 0;
+}
+
+.count div h3 {
+	font-size: 4rem;
+	padding: 0;
+}
+
+.count div p {
+	font-size: 1.6rem;
+	margin-top: -1.3rem;
+}
+
+.count div:first-child {
+	color: #ffba00;
+}
+
+.count div:nth-child(2) {
+	color: #ff5f72;
+}
+
+.count div:last-child {
+	color: #43cb83;
+}
+
+/* -------------------------------fourth section------------------------ */
+.fourth .container {
+	max-width: 80%;
+}
+
+.blog-cards {
+	margin: 3rem auto;
+}
+
+.blog-card {
+	margin: 2rem auto;
+	overflow: hidden;
+	box-shadow: 1px 2px 10px #000;
+	position: relative;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	width: 20rem;
+	height: 30rem;
+}
+
+.blog-card img {
+	width: 100%;
+}
+
+.card-info {
+	padding: 1rem;
+	margin-bottom: 5rem;
+	margin-top: 1rem;
+}
+
+.blog-card h4 {
+	font-size: 1.3rem;
+	line-height: 2.2rem;
+	margin-bottom: 1rem;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.blog-card:hover h4 {
+	text-decoration: underline;
+	color: #f88800;
+}
+
+.blog-card p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color: rgb(134, 134, 134);
+}
+
+.blog-card a {
+	font-size: 1.2rem;
+	color: rgb(134, 134, 134);
+	text-decoration: none;
+	letter-spacing: 2px;
+	position: absolute;
+	bottom: 2rem;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+.blog-card:hover a {
+	color: #000000;
+}
+
+/* -------------------------------footer section------------------------ */
+
+footer {
+	background-color: #252c3a;
+	color: #fff;
+	overflow: hidden;
+}
+
+footer p,
+footer a {
+	color: #969595;
+	font-size: 1.3rem;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #fff;
+}
+
+.first-footer {
+	padding: 3rem;
+}
+
+/* about/1st section of footer */
+.about {
+	width: 80%;
+}
+
+.about,
+.feature {
+	padding-top: 3rem;
+}
+
+.about .logo {
+	width: 10rem;
+}
+
+.about p {
+	font-size: 1.4rem;
+	padding: 2rem 0;
+	padding-right: 3rem;
+	border-bottom: 1px solid #969595;
+}
+
+.social-icons a img {
+	padding: 0.5rem;
+	width: 3rem;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.social-icons a img:hover {
+	background: rgb(236, 233, 233);
+}
+
+/* 2nd and 3rd section of footer */
+
+.programs {
+	padding: 2rem 0;
+}
+
+.programs span {
+	font-size: 1rem;
+}
+
+.programs a {
+	padding: 0.7rem 0;
+	display: block;
+}
+
+.support a {
+	padding-top: 2rem;
+}
+
+.input {
+	margin-top: 2rem;
+}
+
+.input input[type='email'] {
+	width: 60%;
+}
+
+.input input[type='submit'] {
+	background-color: #f3a751;
+	color: #fff;
+}
+
+.input input {
+	padding: 1rem;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+}
+
+/* copyright section of footer */
+.last-footer {
+	background-color: #1d232e;
+}
+
+.last-footer {
+	padding-top: 1rem;
+	text-align: center;
+}
+
+.list-unstyled li {
+	display: inline-block;
+	color: #4a4a4a;
+	padding: 0 0.5rem;
+	font-size: 1.2rem;
+}
+
+.list-unstyled li a {
+	color: #4a4a4a;
+}
